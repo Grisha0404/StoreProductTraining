@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    background-color: rgb(221 255 202);
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 60px;
+    align-content: center;
+    box-shadow: 0px -20px 20px -10px rgb(129 211 110) inset;
+}
+
+.navContainer {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navContainer a{
+    text-decoration: none;
+}
