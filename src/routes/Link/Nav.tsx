@@ -14,7 +14,7 @@ export const Nav = () => {
             <Link to={RouteNames.HOME}>Главная</Link>
             <Link to={RouteNames.PRODUCTS}>Товары</Link>
             <Link to={RouteNames.SHOPPINGBASKET}>Корзина<span> ({price} byn)</span></Link>
-            <Link to={RouteNames.NOT_FOUND}>404</Link>
+            {/*<Link to={RouteNames.NOT_FOUND}>404</Link>*/}
             </div>
         </div>
     );
